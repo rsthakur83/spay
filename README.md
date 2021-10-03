@@ -53,6 +53,9 @@ This section explains the prerequisite for setting up ci/cd pipeline using jenki
       - ecr_app = "ecr-app"                                                // ecr repo name to store image
       - terraform_state_bucket = "terraform-state-file-storage-surepay"    // S3 bucket to store terraform state file
       - AWS_ACCOUNT_ID = "259004291460"                                    // AWS Account ID
+      - Set aws-credential in Jenkins as shown below diagram
+      
+![aws-credential.PNG](images/aws-credential.PNG)      
 
 ## **SAST**
 
